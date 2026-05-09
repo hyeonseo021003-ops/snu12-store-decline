@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+
+# Models / pickles
+*.pkl
+*.pickle
+*.joblib
+
+# Documents (large)
+*.pdf
+*.pptx
+*.docx
+*.hwp
